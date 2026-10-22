@@ -45,7 +45,7 @@ This repository contains a production-oriented AWS migration design for moving a
 ## Migration strategy
 
 Use DMS in:
-- full-load + CDC mode
+- full-load + CDC mode  : Full load + CDC lets you migrate the existing database while capturing ongoing changes,
 - validate data before cutover
 - pause app writes only during final catch-up
 - cut over app connection to RDS
