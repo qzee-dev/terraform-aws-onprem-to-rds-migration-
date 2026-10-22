@@ -1,5 +1,3 @@
-# terraform-aws-onprem-to-rds-migration-
-
 # On-prem to AWS RDS migration with DMS and Site-to-Site VPN
 
 This repository contains a production-oriented AWS migration design for moving a database from on-prem into AWS RDS with minimal downtime using AWS Database Migration Service (DMS) and Site-to-Site VPN.
